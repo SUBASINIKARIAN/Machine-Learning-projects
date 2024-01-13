@@ -14,7 +14,7 @@ def label_encode_columns(data, columns_to_encode):
             data[column] = label_encoder.transform(data[column])
 
 # Load the data
-data = pd.read_csv('./Road.csv/Road.csv')
+data = pd.read_csv('https://github.com/SUBASINIKARIAN/Machine-Learning-projects/blob/main/Fatality_app/Road.csv/Road.csv')
 data.dropna(inplace=True)
 
 # Modifying Time to required format
